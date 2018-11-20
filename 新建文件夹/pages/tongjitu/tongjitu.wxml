@@ -1,0 +1,10 @@
+<view wx:if="{{jingbao}}">
+  <view class="tiaojian"><text class='text'>警报</text></view></view>
+  <view class='shitu1'>
+    <button class="btn1" bindtap="tapName1" hover-class='btn'>打开</button>
+  </view>
+  <view class='shitu2'>  
+    <button class="btn2" bindtap="tapName2" hover-class='btn'>关闭</button>
+  </view>
+  
+
